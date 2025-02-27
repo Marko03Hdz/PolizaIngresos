@@ -1,0 +1,107 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.container {
+  width: 5.5in;
+  margin: 0 auto;
+}
+.header {
+  text-align: right;
+  margin-bottom: 10px;
+}
+.header-title {
+  text-align: center;
+  font-size: 2.0em;
+  font-weight: bold;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.table th, .table td {
+  padding: 10px 1px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+.table th {
+  background-color: #e6f2ff;
+  text-align: center; /* Centra el texto */
+}
+.table tr:nth-child(even) {
+  background-color: #ffffff;
+}
+.table tr:nth-child(odd) {
+  background-color: #e6f2ff;
+}
+
+.table tr:last-child {
+  line-height: 1.0; /* Ajusta el interlineado para la última fila */
+}
+
+.footer {
+  margin-top: 10px;
+}
+.footer td {
+  padding: 7px;
+}
+.rounded-box {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px; /* Agrega margen superior */
+  text-align: center; /* Centra el texto */
+}
+
+.rounded-box div:first-child { /* Selecciona el primer div dentro de rounded-box */
+  padding-bottom: 2px; /* Agrega padding-bottom */
+  background-color: #e6f2ff; /* Agrega el color de fondo */
+  border-radius: 5px; /* Asegura que el border-radius coincida */
+  width: 100%; /* Establece el ancho al 100% */
+}
+
+
+/* Ajusta el ancho de las columnas */
+.table .cuenta {
+  width: 25%; /* Ancho para CUENTA */
+}
+.table .parcial {
+  width: 8%; /* Ancho para PARCIAL */
+}
+.table .nombre {
+  width: 42%; /* Ancho para NOMBRE */
+}
+/* Estilo para el óvalo de IDFraternidad */
+.header .rounded-box-fraternidad {
+  border: 5px solid #ddd;
+  border-radius: 10px;
+  padding: 6px 20px;
+  background-color: #e6f2ff;
+  color: #000;
+  width: 50%;
+  float: right;
+  text-align: center;
+}
+/* Estilos para la FECHA y el NÚMERO DE PÓLIZA */
+.header .fecha-poliza {
+  text-align: left;
+  margin-top: 4px;
+}
+/* Ajuste de interlineado */
+.table tr {
+  line-height: 2.8; /* Interlineado de 1.9 */
+}
+/* Estilo para negrita en FECHA y POLIZA No. */
+.header .fecha-poliza > div:nth-child(1) { /* FECHA */
+  font-weight: bold;
+}
+.header .fecha-poliza > div:nth-child(2) { /* POLIZA No. */
+  font-weight: bold;
+}
+@media print {
+    body {
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+  }

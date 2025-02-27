@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilo.css">
+  <title>Póliza Ingresos</title>
+  
+
+</head>
+<body>
+
+<div class="container">
+  <div class="header">
+    <div class="header-title">PÓLIZA DE INGRESOS</div>
+    <div class="rounded-box-fraternidad">&lt;&lt;[IDFraternidad].[Nombre]&gt;&gt;</div>
+    <div class="fecha-poliza">
+      <div>FECHA: &lt;&lt;TEXT([FECHA], "DD - MMM - YYYY")&gt;&gt;</div>
+      <div>POLIZA No. &lt;&lt;[No.Reg]&gt;&gt;</div>
+    </div>
+  </div>
+
+  <table class="table">
+    <tr>
+      <th class="cuenta" colspan="2">CUENTA</th>
+      <th class="nombre">NOMBRE</th>
+      <th class="parcial">PARCIAL</th>
+      <th class="cuenta">DEBE</th>
+      <th class="cuenta">HABER</th>
+    </tr>
+    <tr>
+      <td class="cuenta" colspan="2"></td>
+      <td class="nombre"></td>
+      <td class="parcial"></td>
+      <td class="cuenta"></td>
+      <td class="cuenta"></td>
+    </tr>
+    <tr>
+      <td class="cuenta" colspan="2"></td>
+      <td class="nombre"></td>
+      <td class="parcial"></td>
+      <td class="cuenta"></td>
+      <td class="cuenta"></td>
+    </tr>
+    <tr>
+      <td class="cuenta" colspan="2"></td>
+      <td class="nombre"></td>
+      <td class="parcial"></td>
+      <td class="cuenta"></td>
+      <td class="cuenta"></td>
+    </tr>
+    <tr>
+          <td class="cuenta" colspan="2">&lt;&lt;[BANCO].[NoCuenta]&gt;&gt;</td>
+      <td class="nombre">&lt;&lt;[BANCO].[Banco]&gt;&gt;</td>
+      <td class="parcial"></td>
+      <td class="cuenta">&lt;&lt;[MONTO]&gt;&gt;</td>
+      <td class="cuenta"></td>
+    </tr>
+
+
+    <tr>
+      <td class="cuenta" colspan="2"></td>
+      <td class="nombre"></td>
+      <td class="parcial"></td>
+      <td class="cuenta"></td>
+      <td class="cuenta"></td>
+    </tr>
+    <tr>
+      <td class="cuenta" colspan="2"></td>
+      <td class="nombre"></td>
+      <td class="parcial"></td>
+      <td class="cuenta"></td>
+      <td class="cuenta"></td>
+    </tr>
+    <tr>
+      <td class="cuenta" colspan="2"></td>
+      <td class="nombre"></td>
+      <td class="parcial"></td>
+      <td class="cuenta"></td>
+      <td class="cuenta"></td>
+    </tr>
+
+  </table>
+
+  <div class="rounded-box">
+    <div style="margin-bottom: 5px; font-weight: bold;">Ingresos Propios de la Actividad Pastoral</div>
+    <div>&lt;&lt;[DESCRIPCIÓN]&gt;&gt;</div>
+  </div>
+
+</div>
+
+</body>
+</html>
