@@ -57,6 +57,7 @@
           /* Recuadro de FECHA Y POLIZA No. */
           .date-policy {
               display: flex;
+              justify-content: flex-end; /* Alinea los elementos a la derecha */
               text-align: right;
               width: auto; /* Permite que el contenedor se ajuste al contenido */
           }
