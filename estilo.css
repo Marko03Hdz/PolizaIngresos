@@ -127,7 +127,7 @@
           
           /* RECUADRO INFERIOR DE CONCEPTO */
           .concept {
-              width: 92.6%;
+              width: auto;
               border: 2px solid #1b75bc;
               padding: 2px 15px;
               margin-top: 2px;
