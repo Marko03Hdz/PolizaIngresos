@@ -18,20 +18,19 @@
   
           /* Recuadro de la FRATERNIDAD */
           .header {
-              width: 264px;
+              width: 547.7px;
               display: flex;
               justify-content: center;
               align-items: center;
-              border: 3px solid #1b75bc;
+              border: 4px solid #1b75bc;
               padding: 5px;
               font-weight: bold;
               background-color: #e6f7Ff;
               border-top-left-radius: 10px;
-              border-top-left-radius: 10px;
               border-top-right-radius: 10px;
-              margin-left: 49%;
+              margin-left: 0%;
               position: relative; /* Añadimos posicionamiento relativo */
-              top: 12px; /* Ajustamos la posición vertical */
+              top: 14px; /* Ajustamos la posición vertical */
           }
           .title-row {
               display: flex;
@@ -47,7 +46,7 @@
               font-weight: bold;
               padding: 13px;
               text-align: left;
-              border-top-left-radius: 5px; /* Redondea la esquina superior izquierda */
+              border-top-left-radius: 0px; /* Redondea la esquina superior izquierda */
               border-bottom-left-radius: 0px; /* Redondea la esquina inferior izquierda */
               border-top-right-radius: 0; /* Esquina superior derecha recta */
               border-bottom-right-radius: 0; /* Esquina inferior derecha recta */
@@ -62,7 +61,7 @@
           }
           .date-policy-item {
               background-color: white;
-              border: 3px solid #1b75bc;
+              border: 4px solid #1b75bc;
               border-radius: 1px;
               padding: 0px 30px;
               margin-left: 0px; /* Reducimos el margen */
@@ -80,7 +79,7 @@
   
           /* TABLA */
           .table {
-              width:98%;
+              width:98.5%;
               border-collapse: collapse;
               margin-top: -12px;
               border: 4px solid #1b75bc; /* Mantenemos el borde exterior */
@@ -122,6 +121,7 @@
           .concept-label{
               font-size: 0.7em;
                margin-top: 3px;
+               margin-left: 10px;
           }
           
           /* RECUADRO INFERIOR DE CONCEPTO */
@@ -152,7 +152,7 @@
                margin-top: 3px;
                font-weight: normal;
                font-style: italic;
-              margin-left: 510px;
+              margin-left: 20px;
           }
           @media print {
             body {
