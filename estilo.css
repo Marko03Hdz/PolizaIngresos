@@ -50,7 +50,7 @@
               border-bottom-left-radius: 0px; /* Redondea la esquina inferior izquierda */
               border-top-right-radius: 0; /* Esquina superior derecha recta */
               border-bottom-right-radius: 0; /* Esquina inferior derecha recta */
-              flex-grow: .9;
+              flex-grow: 3;
           }
           
           
